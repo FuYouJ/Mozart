@@ -57,7 +57,7 @@ public class TaskService {
 
 在测试类中我声明了两个定时任务，每秒执行一次，然后每个任务都是循环体不会退出。那么最终的结果就是只会有一个任务执行，另外一个任务永远也不会执行。
 
-![img](https://xqlwxcekt8.feishu.cn/space/api/box/stream/download/asynccode/?code=NjU3YjBhOGRkMzY1ZmI3ZjExNWU1MDc4NmJiYWZiYzNfNThzYlJ0R2hsc21qUWRiNkVObnFIcHc4dUppcGkwSnNfVG9rZW46Ym94Y25mSHpNR0ZESFdiekZkVnd0a1ZYRTRnXzE2NzEzNDIyMzE6MTY3MTM0NTgzMV9WNA)
+![img](http://www.xiewenshi.fans/blogimg/scheduledemo.PNG)
 
 ### 解决办法
 
@@ -420,7 +420,7 @@ private void finishRegistration() {
 
 > 在上面的后置处理器中，最终调用了SchedulingConfigurer的实现类来修改ScheduledTaskRegistrar。
 
-![img](https://xqlwxcekt8.feishu.cn/space/api/box/stream/download/asynccode/?code=YjFhM2UzYzNjMzI4MmUyZmRiYzU4ZGE4ODFiN2U4MjNfS3U3Y1AyTzd4U1JuVkFxSEpxWGUyZ3JyZ2hTcFFYWFpfVG9rZW46Ym94Y25xMzZqQjdxcjdwbTRlRnpqakc1ckdkXzE2NzEzNDIyMzE6MTY3MTM0NTgzMV9WNA)
+![img](http://www.xiewenshi.fans/blogimg/scheduledemo2.png)
 
 这个类在属性填充完毕之后执行
 
