@@ -1,4 +1,4 @@
-## 快速排序
+## 快速排序【andy故意搞的代码冲突】
 
 **代码**
 
@@ -67,7 +67,7 @@ public static void mergeSort(final int[] arr,int l,int r){
 
 **代码**
 
-```json
+```java
 public static int minK(final int[] arr,int l,int r,int k){
         if (l >= r){
             return arr[l-1];
