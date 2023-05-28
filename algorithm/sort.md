@@ -67,7 +67,7 @@ public static void mergeSort(final int[] arr,int l,int r){
 
 **代码**
 
-```json
+```java
 public static int minK(final int[] arr,int l,int r,int k){
         if (l >= r){
             return arr[l-1];
